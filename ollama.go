@@ -10,7 +10,7 @@ import (
 func ollamaHealthCheck() bool {
 	resp, err := http.Get(ollamaURL)
 	if err != nil {
-		log.Println("HTTP call failed:", err)
+		log.Println(err)
 		return false
 	}
 	if resp.StatusCode != http.StatusOK {
@@ -25,11 +25,13 @@ func ollamaHealthCheck() bool {
 This function should be called if the function "ollamaHealthCheack" fails
 */
 func ollamaStart(){
+		log.Println("Let's start ollama")
 		cmd := exec.Command("ollama", "serve")
-		err := cmd.Run()
-		if err != nil{
+		err := cmd.Start()
+			if err != nil{	
 			log.Fatal("err: ", err.Error())
 			log.Fatal("High chance that 'ollama' is not installed")
 			os.Exit(1)
 		}
+		log.Println("Ollama started!")
 }
