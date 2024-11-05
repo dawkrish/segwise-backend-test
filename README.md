@@ -1,6 +1,14 @@
 # segwise-backend-test
 Backend Intern Test for Segwise.ai
 
+
+## Run this repo
+* use Makefile.
+* It only has one command.
+* run `make` or `make server`
+* we start Ollama by `ollama server &> /dev/null &`. Piping the stderr and stdout to `/dev/null` and `&`to run in background 
+* We have functions `ollamaHealthCheck` &  `ollamaStart`.  They don't need to be there, but its just a way to make our code safer
+
 ## Resources
 * [This shows how to use llm with api-endpoints](https://go.dev/blog/llmpowered)
 * [How to run LLM's locally](https://medium.com/@rifai201/talkative-your-golang-gateway-to-powerful-large-language-models-7577814bb7c3
