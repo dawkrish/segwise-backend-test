@@ -6,6 +6,7 @@ Backend Intern Test for Segwise.ai
 * [How to run LLM's locally](https://medium.com/@rifai201/talkative-your-golang-gateway-to-powerful-large-language-models-7577814bb7c3
 )
 * [Ollama](https://github.com/ollama/ollama) (Fun Fact, Ollama is written in GO :))
+* [Running shell commands](https://www.sohamkamani.com/golang/exec-shell-command/)
 
 
 ## Dependencies
