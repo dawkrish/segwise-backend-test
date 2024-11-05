@@ -15,6 +15,9 @@ Backend Intern Test for Segwise.ai
 )
 * [Ollama](https://github.com/ollama/ollama) (Fun Fact, Ollama is written in GO :))
 * [Running shell commands](https://www.sohamkamani.com/golang/exec-shell-command/)
+* I used ChatGPT, to find about SerpAPI, it really awesome. You can scrape google-search content with it
+* I have not used ChatGPT code. just discovered the API by it by the prompts "google api for play store"
+* [SerpAPI](https://serpapi.com/google-play-api)
 
 
 ## Dependencies
